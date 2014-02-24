@@ -1,6 +1,10 @@
 # Alephant::Support
 
-TODO: Write a gem description
+Provides support classes to Alephant gems
+
+[![Build Status](https://travis-ci.org/BBC-News/alephant-support.png?branch=master)](https://travis-ci.org/BBC-News/alephant-support)
+
+[![Gem Version](https://badge.fury.io/rb/alephant-support.png)](http://badge.fury.io/rb/alephant-support)
 
 ## Installation
 
