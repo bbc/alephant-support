@@ -23,6 +23,7 @@ module Alephant
         end
 
         def table_data
+          table.load_schema unless table.schema_loaded?
           table.items.collect do |item|
             construct_attributes_from item
           end
