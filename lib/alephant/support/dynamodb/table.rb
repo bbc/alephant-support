@@ -29,11 +29,11 @@ module Alephant
         end
 
         def construct_attributes_from(item)
-          range_key? ? [item.hash_value, item.range_value.to_i] : item.hash_value
+          no_range_key? ? item.hash_value : [item.hash_value, item.range_value.to_i]
         end
 
-        def range_key?
-          @range_found ||= table.items.first.range_value
+        def no_range_key?
+          @range_found ||= table.range_key.nil?
         end
       end
     end
