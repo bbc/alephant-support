@@ -7,12 +7,6 @@ module Alephant
           :write_units => 5,
           :read_units => 10,
         }
-        SCHEMA = {
-          :hash_key => {
-            :key => :string,
-            :value => :string
-          }
-        }
 
         def table
           raise NotImplementedError
