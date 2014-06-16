@@ -3,7 +3,6 @@ module Alephant
     module AOP
 
       def around(fn_name)
-        puts 'In around method'
         old_method = instance_method(fn_name)
         define_method(fn_name) do |*args|
           yield :before, args if block_given?
