@@ -6,8 +6,8 @@ require 'alephant/support/version'
 Gem::Specification.new do |spec|
   spec.name          = "alephant-support"
   spec.version       = Alephant::Support::VERSION
-  spec.authors       = ["Steven Jack"]
-  spec.email         = ["stevenmajack@gmail.com"]
+  spec.authors       = ["BBC News"]
+  spec.email         = ["FutureMediaNewsRubyGems@bbc.co.uk"]
   spec.description   = "Supporting classes for the alephant framework"
   spec.summary       = "Supporting classes for the alephant framework"
   spec.homepage      = ""
